@@ -2,9 +2,19 @@ nav{
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 2rem;
+    padding-right:2rem;
+    border-bottom: solid 1px;
+}
+nav figure img{
+    width: 5rem;
 }
 nav ul{
+    list-style:none;
     display:flex;
     flex-direction: row;
     gap: 20px; 
+}
+nav ul li{
+    text-transform: uppercase;
 }
