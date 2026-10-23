@@ -1,0 +1,44 @@
+/* Services Section */
+.services {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+}
+
+.services h2 {
+  color: #222;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.service {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.service h3 {
+  color: #007bff;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .service-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
