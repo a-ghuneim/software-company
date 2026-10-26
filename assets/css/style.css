@@ -1,0 +1,81 @@
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-bottom: solid 1px;
+}
+nav figure img {
+  width: 5rem;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+nav ul li {
+  text-transform: uppercase;
+}
+
+/* Services Section */
+.services {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+}
+
+.services h2 {
+  color: #222;
+}
+
+.service-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 25px;
+}
+
+.service {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  border-radius: 8px;
+}
+
+.service h3 {
+  color: #007bff;
+}
+
+/* Footer */
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+  .service-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.hero{
+  display:flex;
+  flex-direction:row;
+   justify-content: space-evenly;
+}
+.hero img{
+  width: 37rem;
+}
+.left{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+}
+.left h1, .left p{
+  width: 80%;
+}
