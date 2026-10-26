@@ -63,3 +63,19 @@ nav ul li {
     align-items: center;
   }
 }
+.hero{
+  display:flex;
+  flex-direction:row;
+   justify-content: space-evenly;
+}
+.hero img{
+  width: 37rem;
+}
+.left{
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+}
+.left h1, .left p{
+  width: 80%;
+}
